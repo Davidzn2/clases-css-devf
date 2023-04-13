@@ -1,0 +1,26 @@
+body {
+    color: green;
+}
+
+/* Selector por medio de una etiqueta */
+h2 {
+    color: blue;
+    font-size: 20px;
+}
+h2:hover {
+    font-size: 40px;
+}
+/* Selector por medio de class */
+.patito {
+    text-align: center;
+}
+
+/* Selector por medio de un ID */
+#yoMero {
+    text-align: right;
+}
+
+/* Selector avanzado */
+.patito h2 {
+    color: magenta;
+}
